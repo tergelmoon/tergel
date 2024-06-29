@@ -1,0 +1,20 @@
+header {
+    background-color: rgb(110, 177, 177);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+main {
+    background-color: rgb(97, 194, 162);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#df {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    object-fit: fill;
+}

@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(219, 241, 13);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+main {
+    background-color: rgb(245, 141, 193);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+footer {
+    background-color: rgb(240, 240, 106);
+    text-align: right;
+    margin: 20px;
+    padding: 20px;
+}
+#man {
+    object-fit: contain;
+
+}
+#df {
+    background-color: blue;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    object-fit: fill;
+}
