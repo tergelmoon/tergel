@@ -1,0 +1,26 @@
+#q {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+#g {
+    position: absolute;
+    top: 260px; left: 40px;
+}
+#u {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+#l {
+    position: absolute;
+    top: 260px; left: 451px;   
+}
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.z {
+    margin: 5px;
+}
