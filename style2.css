@@ -5,6 +5,7 @@ header{
     background-color: white;
     z-index: 1;
     top: 0;
+    position: fixed;
 }
 h1{
     font-size: 20px;
@@ -28,9 +29,6 @@ body{
     width: 100%;
     height: auto;
     margin-top: 50px;
-}
-p {
-    text-align: center;
 }
 #container {
     background-color: rgb(255, 255, 255);
@@ -69,21 +67,7 @@ p {
     display: flex;
     flex-direction: row;
 }
-.x {
-    width: 50%;
-    object-fit: contain;
-}
-.v {
-    width: 50%;
-    object-fit: contain;
-}
-.white {
-    color: #ffffff;
-    margin: 5px; 
-    top: 300px; right: 40px;
-}
 .l1 {
-
     position: relative;
     margin: 20px;
     display: flex;
@@ -91,7 +75,102 @@ p {
     justify-content: center;
 }
 #nike2 {
-    display: flex;
     position: absolute;
     flex-direction: column;
 }
+<<<<<<< HEAD
+=======
+.x {
+    position: relative;
+}
+.z {
+    position: absolute;
+    top: 220px; left: 40px;
+}
+.ss {
+    color: #ffffff;
+}
+.aa {
+    width: 100%;
+    object-fit: contain;
+}
+.a {
+    font-size: 12px;
+    width: 30px;
+    height: 20px;
+    background-color: #a3a0a0;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body {
+    margin: 0;
+}
+.r {
+    position: relative;
+}
+.q1 {
+    position: absolute;
+    top: 220px; left: 40px;
+}
+.r1 {
+    position: relative;
+}
+.q2 {
+    position: absolute;
+    top: 220px; left: 40px;
+}
+.r2 {
+    position: relative;
+}
+.q3 {
+    position: absolute;
+    top: 220px; left: 40px;
+}
+.yy {
+    display: flex;
+    flex-direction: row;
+}
+.i2 {
+    display: flex;
+    flex-direction: row;
+}
+.nn {
+     width: 100%;
+     object-fit: contain;
+}
+.d1 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aa2 {
+    font-size: 10px;
+    width: 80px;
+    height: 18px;
+    background-color: #040404;
+    border-radius: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+}
+.a2 {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.img1 {
+    width: 100%;
+    object-fit: contain;
+}
+#i1 {
+    display: flex;
+}
+>>>>>>> b9b09ad02c8c4b987ab720b1c713ebca25188c46
