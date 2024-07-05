@@ -87,10 +87,10 @@ body{
 }
 .ss {
     color: #ffffff;
+    display: flex;
 }
 .aa {
     width: 100%;
-    object-fit: contain;
 }
 .a {
     font-size: 12px;
@@ -167,6 +167,7 @@ body{
 .img1 {
     width: 100%;
     object-fit: contain;
+    margin-top: 40px;
 }
 #i1 {
     display: flex;
