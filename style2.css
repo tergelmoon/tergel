@@ -78,8 +78,6 @@ body{
     position: absolute;
     flex-direction: column;
 }
-<<<<<<< HEAD
-=======
 .x {
     position: relative;
 }
@@ -89,10 +87,10 @@ body{
 }
 .ss {
     color: #ffffff;
+    display: flex;
 }
 .aa {
     width: 100%;
-    object-fit: contain;
 }
 .a {
     font-size: 12px;
@@ -169,8 +167,79 @@ body{
 .img1 {
     width: 100%;
     object-fit: contain;
+    margin-top: 40px;
 }
 #i1 {
     display: flex;
 }
->>>>>>> b9b09ad02c8c4b987ab720b1c713ebca25188c46
+.cc {
+    font-size: 50px;
+    font-weight: bold;
+}
+.aa1  {
+    font-weight: bold;
+    font-size: 40px;
+}
+.aa3 {
+    font-size: 50px;
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.aa3 h1 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .catalog {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .sneakers {
+    background-color: #f6f6f6;
+    width: 22%;
+    padding: 10px 0;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sneakers img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .sneakers h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .membershipSection {
+    width: 100%;
+    text-align: left;
+  }
+  .membershipSection h1 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+  .membership {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .membershipItem {
+    width: 27%;
+    position: relative;
+    margin-right: 20px;
+  }
+  .membershipItem img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .membershipDesc {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+  }
