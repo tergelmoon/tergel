@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: fixed;
+    top: 0;
 }
 .d1 {
     width: 150px;
@@ -65,7 +68,9 @@
 .e2 {
     background-color: rgb(255, 255, 255);
     width: 90%;
-    height: 840px;
+    margin-top: 0;
+    margin-right: 0;
+
 }
 main {
     display: flex;
@@ -193,7 +198,51 @@ main {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 0;
+}
+.v3 img {
+    margin-left: 5px;
+}
+main {
+    margin-top: 65px;
 }
 body {
-    margin: 0;
+    transition:  0.4s ease-in;
 }
+@media screen and (max-width:100px) {
+    body {
+        
+    }
+    .p1 {
+        width: 40px;
+        height: 35px;
+        margin: 5px
+    }
+    .e1 {
+        width: 5%;
+        height: 420px;
+        flex-direction: column;
+    }
+    .v1 {
+        flex-direction: column;
+    }
+    .k  {
+        flex-direction: column;
+
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width: 1200px) {
+    body {
+    
+    }
+    
+}
+@media screen and (min-width:0) and (max-width: 599px) {
+    body {
+    
+    }
+    
+}
+
