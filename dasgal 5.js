@@ -1,4 +1,7 @@
-let day = 3
-let time = 10
-totalTime=24*day+time
+let day = prompt("Honogoo oruulnuu");
+let time = prompt("tsagaa oruulnuu");
+const a = 24;
+time = Number(time)
+let totalTime = a*day + time;
 console.log(totalTime);
+console.log(time);

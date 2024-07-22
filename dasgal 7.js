@@ -1,6 +1,6 @@
-let bornYear = 1995
-let bornMonth = 11
-let bornDay = 28
+let bornYear = prompt("torson onoo oruulnuu")
+let bornMonth = prompt("torson saraa oruulnuu")
+let bornDay = prompt("torson odoroo oruulnuu")
 let nowyear = 2024
 let nowmonth = 7
 let nowday = 19
