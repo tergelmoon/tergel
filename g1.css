@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    display: flex;
+}
+.box {
+    margin: 10px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+@media screen and (max-width:600px) {
+    body {
+        background-color: blue;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px) {
+    .box {
+        background-color: rgb(141, 235, 235);
+    }
+}
